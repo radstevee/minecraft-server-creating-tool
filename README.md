@@ -15,6 +15,8 @@ Use this command to run it:
 ```bash
 ./minecraft-server-creating-tool.sh
 ```
+## Wrong Java Version
+
 If you get an error like this:
 ```bash
 Unsupported Java version detected (X.XX). Only up to Java XX is supported
