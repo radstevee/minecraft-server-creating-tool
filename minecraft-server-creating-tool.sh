@@ -39,7 +39,10 @@ echo "Creating your server...."
 
 curl -s https://minecraft-mirror.io/"$SOFTWARE"-"$VERSION".jar -o "$LOCATION"/server.jar
 
-echo 'screen -S $NAME java -jar server.jar nogui' > "$LOCATION"/start.sh
+cat > "$LOCATION"/start.sh << EOF
+#!/bin/bash
+screen -S $NAME java -jar server.jar nogui
+EOF
 echo 'eula=true' > "$LOCATION"/eula.txt
 
 chmod +x "$LOCATION"/start.sh
