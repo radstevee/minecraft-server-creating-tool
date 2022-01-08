@@ -44,4 +44,4 @@ echo 'eula=true' > "$LOCATION"/eula.txt
 
 chmod +x "$LOCATION"/start.sh
 
-echo -e "Your server is created! Use 'cd $LOCATION && chmod +x start.sh && ./start.sh' to start the server"
+echo -e "Your server is created! Use 'cd $LOCATION && ./start.sh' to start the server"
