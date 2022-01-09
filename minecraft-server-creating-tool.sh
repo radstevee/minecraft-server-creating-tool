@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -e "IMPORTANT: This script requires openjdk-17-jdk and screen. (sudo apt install openjdk-17-jdk and sudo apt install screen)\nIf you don't have these packages, please cancel the script via CTRL+C."
+echo -e "IMPORTANT: This script requires Java and screen.\nIf you don't have these packages installed, please cancel the script via CTRL+C."
 echo -e "\n"
 echo -e "\n"
 read -r -p "Please name your server: " NAME
