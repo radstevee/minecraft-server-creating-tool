@@ -15,7 +15,11 @@ Use this command to run it:
 ```bash
 ./minecraft-server-creating-tool.sh
 ```
-## Wrong Java Version
+## Errors
+If the screen is instantly terminated, run this command to manually start the server:
+```bash
+java -jar server.jar
+```
 
 If you get an error like this:
 ```bash
