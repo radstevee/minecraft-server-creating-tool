@@ -30,4 +30,4 @@ then install a new Java version by using `sudo apt install openjdk-XX-jdk`
 If you have any suggestions or questions, reach me up on Discord (Radsteve#8033) or on the issues tab.
 
 ## ToDo
-[] Select how much ram to allocate and add it to the start.sh
+- [ ] Select how much ram to allocate and add it to the start.sh
