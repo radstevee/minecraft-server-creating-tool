@@ -77,7 +77,7 @@ curl -s https://minecraft-mirror.io/"$SOFTWARE"-"$VERSION".jar -o "$LOCATION"/se
 # Create start.sh
 cat > "$LOCATION"/start.sh << EOF
 #!/bin/bash
-screen -S $NAME java -Xms128M -Xmx"$RAM"G -jar server.jar nogui
+screen -S $NAME java -Xms128M -Xmx$RAMG -jar server.jar nogui
 EOF
 echo 'eula=true' > "$LOCATION"/eula.txt
 
