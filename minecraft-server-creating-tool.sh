@@ -42,6 +42,7 @@ echo "3) Craftbukkit"
 echo "4) Paperspigot"
 
 # Create Server-Software String to download the right software
+# from https://github.com/MinehubDE/linux-beginner-scripts/blob/master/minecraft_server.sh
 CASE=1
 while [ $CASE -ne 0 ]; do
 	read -r -p "Please enter the number of the desired server software: " SOFTWARE_INT
