@@ -1,14 +1,12 @@
 # minecraft-server-creating-tool
+hm. im not sure if ill continue making updates for this... idk what to add anymore... but you can use it anyways
+
 This is a simple bash-based tool to easily create a minecraft server on linux.
 
 ## Installing
 Use this command to clone the file: 
 ```bash
-curl https://raw.githubusercontent.com/radstevee/minecraft-server-creating-tool/main/minecraft-server-creating-tool.sh -o minecraft-server-creating-tool.sh
-```
-Use this command to make the file runnable: 
-```bash
-chmod +x minecraft-server-creating-tool.sh
+curl https://raw.githubusercontent.com/radstevee/minecraft-server-creating-tool/main/minecraft-server-creating-tool.sh | bash
 ```
 ## Running
 Use this command to run it:
